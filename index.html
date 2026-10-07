@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La Letra — Revista literaria</title>
+<meta name="description" content="La Letra es una revista literaria independiente. Lee online la última edición.">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="La Letra — Revista literaria">
+<meta property="og:description" content="Lee online la última edición de La Letra.">
+<meta property="og:locale" content="es_ES">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="La Letra — Revista literaria">
+<meta name="twitter:description" content="Lee online la última edición de La Letra.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Periodical",
+  "name": "La Letra",
+  "inLanguage": "es",
+  "url": "https://tudominio.com/",
+  "sameAs": ["https://www.instagram.com/revista_la_letra/"]
+}
+</script>
+</head>
+<body>
+
+<button id="hamburger" class="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="drawer">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+
+<div id="overlay" class="overlay-bg" hidden></div>
+
+<aside id="drawer" class="drawer" aria-hidden="true">
+  <div class="drawer-head">
+    <span class="drawer-title">Menú</span>
+    <button id="closeDrawer" class="close-btn" aria-label="Cerrar menú">×</button>
+  </div>
+
+  <nav class="drawer-body">
+    <h4>Ediciones</h4>
+    <ul id="menuList" class="drawer-list"></ul>
+
+    <h4>Enlaces</h4>
+    <ul class="drawer-links">
+      <li>
+        <a href="https://www.instagram.com/revista_la_letra/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+            <circle cx="12" cy="12" r="4"></circle>
+            <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"></circle>
+          </svg>
+          @revista_la_letra
+        </a>
+      </li>
+      <li>
+        <a href="mailto:laletrauma@gmail.com">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+            <polyline points="3 7 12 13 21 7"></polyline>
+          </svg>
+          laletrauma@gmail.com
+        </a>
+      </li>
+    </ul>
+  </nav>
+</aside>
+
+<header>
+  <h1>LA LETRA</h1>
+  <p class="tagline">Revista literaria independiente · desde 2022</p>
+</header>
+
+<main>
+  <div id="ultima" class="ultima-wrap"></div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-col">
+      <h3>La Letra</h3>
+      <p>Revista literaria independiente. Poesía, relato y crítica desde 2022.</p>
+    </div>
+    <div class="footer-col">
+      <h3>Contáctanos</h3>
+      <ul class="contacto">
+        <li><a href="mailto:laletrauma@gmail.com">laletrauma@gmail.com</a></li>
+        <li><a href="https://www.instagram.com/revista_la_letra/" target="_blank" rel="noopener">@revista_la_letra</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Síguenos</h3>
+      <a class="ig-footer" href="https://www.instagram.com/revista_la_letra/" target="_blank" rel="noopener" aria-label="Instagram: @revista_la_letra">
+        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+          <circle cx="12" cy="12" r="4"></circle>
+          <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"></circle>
+        </svg>
+        <span>@revista_la_letra</span>
+      </a>
+    </div>
+  </div>
+  <p class="copy">© <span id="year"></span> La Letra · Hecha con tinta y cariño</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
