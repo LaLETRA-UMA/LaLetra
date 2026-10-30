@@ -5,6 +5,7 @@
 // anio: año
 
 const revistas = [
+  { id: "1PYwqoLqA-2jWB3Iyruo1VbyOXRlTiwHD", titulo: "La Letra #37", subtitulo: "Octubre 2026", anio: 2026, num: 37},
   { id: "12wK14J3tfXWuquhAuSleK6O7d6F7Oxh7", titulo: "La Letra #36", subtitulo: "Abril–Junio 2026", anio: 2026, num: 36 },
   { id: "1Dls0hejiNDjPFCzZoRbydMzs6tvbM6Os", titulo: "La Letra #35", subtitulo: "Febrero–Marzo 2026", anio: 2026, num: 35 },
   { id: "1Qob-Lwyqp_qS22E4BpMZKkWdZwxOg_wk", titulo: "La Letra #34", subtitulo: "Diciembre–Enero", anio: 2025, num: 34 },
